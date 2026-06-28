@@ -16,6 +16,7 @@
                 "terminal.integrated.inheritEnv": true
             },
             "extensions": [
+                "charliermarsh.ruff",
                 "EditorConfig.EditorConfig",
                 "redhat.vscode-yaml",
                 "mohsen1.prettify-json",
