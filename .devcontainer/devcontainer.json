@@ -14,18 +14,18 @@
                 },
                 "terminal.integrated.defaultProfile.linux": "bash",
                 "terminal.integrated.inheritEnv": true
-            }
-        },
-        "extensions": [
-            "EditorConfig.EditorConfig",
-            "redhat.vscode-yaml",
-            "mohsen1.prettify-json",
-            "ms-python.python",
-            "ms-python.vscode-pylance"
-        ]
+            },
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "redhat.vscode-yaml",
+                "mohsen1.prettify-json",
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
     },
     "postCreateCommand": {
-        "setupEnvironment": "uv venv .venv --python 3.9"
+        "setupEnvironment": "uv venv --python 3.9"
     },
     "remoteEnv": {
         "PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}",
